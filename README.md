@@ -66,6 +66,12 @@ eslint.config.js          # Linting config
 3. **Configure environment variables**
     - Create a `.env` file using `.env.example` as a template.
     - Set Supabase and Twilio keys.
+VITE_SUPABASE_URL=
+VITE_SUPABASE_ANON_KEY=
+VITE_TWILIO_ACCOUNT_SID=
+VITE_TWILIO_AUTH_TOKEN=
+VITE_TWILIO_PHONE_NUMBER=
+VITE_TWILIO_MESSAGING_SERVICE_SID=
 
 4. **Start the development server**
     ```sh
